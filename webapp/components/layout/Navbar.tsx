@@ -28,7 +28,7 @@ const Navbar = ({ type = "default", navs = [], link }: NavbarProps) => {
       <div className="w-[80vw] flex items-center justify-between h-16 px-4 border rounded-2xl border-border/70 bg-background/70 backdrop-blur-sm">
 
         {/* Brand */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center">
           <span className="text-lg font-bold text-foreground">Dev</span>
           <span className="text-lg font-bold text-accent">Draft</span>
         </div>
